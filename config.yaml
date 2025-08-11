@@ -1,0 +1,17 @@
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+chunk:
+  tokens: 900
+  overlap: 120
+retrieval:
+  k: 5
+  bm25_weight: 0.2   # 0 = embeddings only; up to 0.5 hybrid
+reranker:
+  enabled: false
+  model: cross-encoder/ms-marco-MiniLM-L-6-v2
+paths:
+  raw: data/raw
+  processed: data/processed
+  index: data/processed/index
+api:
+  host: 0.0.0.0
+  port: 8000
