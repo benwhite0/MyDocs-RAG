@@ -1,0 +1,16 @@
+﻿# env & cache
+.venv/
+__pycache__/
+*.pyc
+
+# local config & data
+.env
+data/processed/
+data/index/
+data/feedback/
+reports/
+
+# os/editor
+.DS_Store
+.vscode/
+.idea/
