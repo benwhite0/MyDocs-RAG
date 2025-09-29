@@ -7,7 +7,6 @@ A retrieval-augmented-generation chatbot service for any document collection.
 - Ingest PDFs & text files (chunk & embed)  
 - Store & query in FAISS  
 - FastAPI endpoint & optional Streamlit UI  
-- Automated evaluation (DeepEval/RAGAS)
 
 ## Installation
 
